@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace BilletLib
 {
-    public class Bil
+    public class Bil : BaseBil
     {
         public string nummerPlade { get; set; }
         public DateTime Dato { get; set; }
 
-        public int Pris()
+        public override int Pris()
         {
             int fastPris = 240;
             return fastPris;
         }
 
-        public string køretøj()
+        public override string KøreTøj()
         {
             return "Bil";
         }
