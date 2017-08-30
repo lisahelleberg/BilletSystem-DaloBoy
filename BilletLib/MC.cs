@@ -8,8 +8,8 @@ namespace BilletLib
 {
     public class MC : BaseBil
     {
-        public string NummerPlade { get; set; }
-        public DateTime Dato { get; set; }
+        //public string NummerPlade { get; set; }
+        //public DateTime Dato { get; set; }
 
         public override int Pris()
         {
