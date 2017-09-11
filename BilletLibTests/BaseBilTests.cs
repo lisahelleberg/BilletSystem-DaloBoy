@@ -23,7 +23,9 @@ namespace BilletLib.Tests
             Assert.AreEqual("AS69420",Bil.NummerPlade);
         }
 
+        // ExpectedException
         [TestMethod()]
+        [ExpectedException(typeof(ArgumentException))]
         public void nummerpladeTestMed8()
         {
             //arrange
